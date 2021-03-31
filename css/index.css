@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100;
+  font-family: sans-serif;
+  text-align: center;
+}
+body div:first-child {
+  background-color: red;
+  font-size: 1.2rem;
+  padding: 20px;
+  color: white;
+}
+#idserial {
+  background-color: rgb(250, 81, 81);
+  color: aliceblue;
+  width: 500px;
+  margin: 50px auto;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+}
+#generate {
+  margin-top: 200px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  transition: 0.5s ease-in-out;
+  border: none;
+}
+#generate:hover {
+  color: red;
+  border: red;
+  cursor: pointer;
+}
